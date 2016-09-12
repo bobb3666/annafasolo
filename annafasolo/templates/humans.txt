@@ -1,0 +1,8 @@
+# TEAM
+	Me
+# THANKS
+	Marina Mele
+# TECHNOLOGY COLOPHON
+	Django
+	HTML5 Boilerplate
+	Twitter Bootstrap

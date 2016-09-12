@@ -1,0 +1,44 @@
+
+{% extends "base.html" %}
+{% block head_title %}Anna Fasolo Psychotherapy{% endblock %}
+
+{% block content %}
+
+<!-- Intro and Jumbotron -->
+<section id="intro">
+	<div class="jumbotron myjumbotron">
+      <div class="container">
+        <h1>Anna Fasolo</h1>
+        <p>All the psychotherapy you could want in one place!</p>
+        <p><a class="btn btn-primary btn-lg" href="#about" role="button">Learn more &raquo;</a></p>
+      </div>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about" class="anchor">
+  {% include "about.html" %}
+</section>
+
+<!-- Services section -->
+<section id="services" class="anchor">
+  {% include "services.html" %}
+</section>
+
+<!-- Pricing section -->
+<section id="pricing" class="anchor">
+  {% include "pricing.html" %}
+</section>
+
+<!-- Contact section -->
+<section id="contact" class="anchor">
+ {% include "contact.html" %}
+</section>
+
+<!-- Button to send user back to top -->
+<div class="row" id="topbutton">
+  <br /><br />
+  <a href="#page-top"><button class="btn btn-primary">TOP <i class="fa fa-angle-up"></i></button></a>
+  <br /><br />
+</div>
+{% endblock %}

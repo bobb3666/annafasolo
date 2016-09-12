@@ -1,0 +1,111 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background: #D7D8D9;
+}
+h1 {
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	padding: 20px;
+}
+
+p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+}
+
+
+#services-container {
+	text-align: center;
+}
+#service-row {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#service-row i {
+	font-size: 4em;
+	vertical-align: middle;
+}
+
+#topbutton {
+	text-align: center;
+}
+
+
+.myjumbotron {
+	color: white;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/bg2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.myjumbotron p {
+	text-align: center;
+}
+
+
+
+#mappy {
+	text-align: center;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	padding-top: 25px;
+}
+
+.appointment-form h3 {
+	text-align: center;
+}
+
+#socialbuttons a {	
+	display: inline-block;
+	letter-spacing: -10px;
+	margin:0px -5px 0px -5px;
+	font-size: 1.5em;
+}
+
+.container {
+	width: 100%;
+}
+
+#services {
+	background: white;
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#profpic {
+	text-align: center;
+}
+
+#intro {
+	padding:0;
+}
+
+#contact {
+	background: white;
+}
+
+footer {
+	background: #2B2B2B;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.navbar.navbar-fixed-top li a {
+	color: red;
+}
